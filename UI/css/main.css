@@ -120,3 +120,43 @@ body{
   font-weight: bold;
 
 }
+
+@media only screen and (max-width: 1180px){
+  .login-box{
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 998px){
+.login-box{
+  width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .login-box{
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .login-box{
+    width: 80%;
+  }
+  .logo{
+    float: none;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+  }
+  .main-nav{
+    float: none;
+    margin: 0 auto;
+  }
+
+  .row{
+    width: 100%;
+    margin: 0 auto;
+
+  }
+}
