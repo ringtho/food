@@ -142,21 +142,41 @@ body{
 @media only screen and (max-width: 480px){
   .login-box{
     width: 80%;
+    height: 380px;
+    top:70%;
+    font-size: 80%;
   }
   .logo{
     float: none;
-    margin: 0 auto;
     height: 200px;
     width: auto;
   }
-  .main-nav{
-    float: none;
-    margin: 0 auto;
+  .row{
+    text-align: center;
   }
 
-  .row{
-    width: 100%;
-    margin: 0 auto;
+  .main-nav{
+    float: none;
+    margin:0 auto;
+    width: 80%;
+    font-weight: bolder;
+  }
 
+@media only screen and (max-height: 650px){
+  .login-box{
+    height: 300px;
+    font-size: 60%;
+  }
+
+  .logo{
+    height: 160px;
+  }
+
+  .login-box h2{
+    margin-top: -35px;
+  }
+
+  .login-box input{
+    height: 30px;
   }
 }
