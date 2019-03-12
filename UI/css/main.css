@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header1{
+  background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../images/header5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+body{
+  font-size: 20px;
+  overflow-x: hidden;
+  color: white;
+  font-family: 'Flamenco', cursive;
+}
+
+.row{
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.logo{
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.main-nav{
+  float: right;
+  margin-top: 60px;
+}
+
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+
+}
+
+.main-nav li a{
+  padding: 5px 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 90%;
+  font-weight: 100;
+}
+
+.main-nav li a:hover{
+  border-bottom: 2px solid #bf55ec;
+}
+
+
+.login-box{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 420px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.login-box h2, .signup-box h2{
+  margin: 0;
+  text-align: center;
+  padding: 0 0 20px;
+}
+
+.login-box p, .signup-box p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.login-box input, .signup-box input{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  color: #fff;
+
+}
+
+.login-box input[type="email"],.login-box input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  font-size: 80%;
+}
+
+.login-box input[type="submit"],.signup-box input[type="submit"] {
+  border: none;
+  outline: none;
+  font-size: 80%;
+  border-radius: 20px;
+  background: darkcyan;
+  color: #fff;
+}
+
+.login-box input[type="submit"]:hover,.signup-box input[type="submit"]:hover {
+  background: #bf55ec;
+  color: #fff;
+}
+
+.login-box a, .signup-box a{
+  font-size: 90%;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+@media only screen and (max-width: 1180px){
+  .login-box{
+    width: 50%;
+  }
+
+  .wrapper{
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  .signup{
+    height: 180vh;
+  }
+
+  .signup-box{
+    width: 50%;
+    float: none;
+    left: 50%;
+    margin: auto;
+
+  }
+
+  .top-box{
+    margin-top: 250px;
+    margin-bottom: 10px;
+  }
+
+
+}
+
+@media only screen and (max-width: 998px){
+.login-box{
+  width: 60%;
+  }
+  .signup-box{
+    width: 60%;
+    font-size: 80%;
+  }
+  .signup{
+    height: 180vh;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .login-box{
+    width: 70%;
+  }
+  .signup-box{
+    width: 70%
+  }
+  .signup{
+    height: 180vh;
+  }
+
+}
+
+@media only screen and (max-width: 480px){
+  .login-box{
+    width: 80%;
+    height: 380px;
+    top:70%;
+    font-size: 80%;
+  }
+  .logo{
+    float: none;
+    height: 200px;
+    width: auto;
+  }
+  .row{
+    text-align: center;
+  }
+
+  .main-nav{
+    float: none;
+    margin:0 auto;
+    width: 80%;
+    font-weight: bolder;
+  }
+  .signup-box{
+    width: 90%;
+  }
+  .top-box{
+    margin-top: 15px;
+  }
+
+  .signup{
+    height: 180vh;
+  }
+}
+
+
+@media only screen and (max-height: 650px){
+  .login-box{
+    height: 300px;
+    font-size: 60%;
+  }
+
+  .logo{
+    height: 160px;
+  }
+
+  .login-box h2{
+    margin-top: -35px;
+  }
+
+  .login-box input{
+    height: 30px;
+  }
+}
