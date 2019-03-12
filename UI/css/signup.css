@@ -1,0 +1,29 @@
+.signup{
+  background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("../images/header2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.signup-box{
+  background: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  float: left;
+  width: 350px;
+  margin-top: 200px;
+  height: 370px;
+  padding: 10px 40px;
+}
+
+.signup-box input[type="email"],.signup-box input[type="password"], .signup-box input[type="text"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  font-size: 80%;
+}
